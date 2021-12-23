@@ -15,12 +15,16 @@ document.getElementById(botaoAperte).addEventListener('click');
 
 function abreModal(){
     Swal.fire({
-    text: minhasMensagens + whatsAppURL,
-    imageWidth: 400,
-    imageHeight: 200,
-})
-
-var whatsAppURL = `https://wa.me?text=${encodeURIComponent('The message to send')}`;
-
+        title: minhasMensagens,
+        width: 500,
+        padding: '2em',
+        color: '#FFFFFF',
+        background: '#00000005 url(bgpopup.png)',
+        backdrop: `
+          rgba(22,83,78,255,0)
+          left top
+          no-repeat
+        `
+      });
 };
 
