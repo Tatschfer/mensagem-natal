@@ -1,18 +1,11 @@
-@media screen and (max-width:700px){
-    header .container{
-    display: flex;
-    flex-direction: column;
+@media screen and (max-width:800px){
+    .titulo{
+        font-size: 45px;
     }
-
-    .botao{
-        margin-top: 5px;
-        width: 300px;
-    }
-
 }
 
 @media screen and (min-width:1000px){
-    .descricao{
-        width: 50%;
+    .titulo{
+        font-size: 70px;
     }
 }

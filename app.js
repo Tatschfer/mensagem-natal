@@ -19,7 +19,8 @@ function abreModal(){
         width: 500,
         padding: '2em',
         color: '#FFFFFF',
-        background: '#00000005 url(bgpopup.png)',
+        confirmButtonText: 'Gratidão',
+        background: 'url(bgpopup.png)',
         backdrop: `
           rgba(22,83,78,255,0)
           left top
